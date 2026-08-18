@@ -1,0 +1,37 @@
+
+.swatch-list { display: flex; gap: var(--num6); }
+.swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--line);
+  display: inline-block;
+}
+
+
+.slide-arrow {
+  width: var(--num40);
+  height: var(--num40);
+  border-radius: var(--radius-full);
+  background-color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink);
+}
+.slide-dots { display: flex; gap: var(--num8); }
+.slide-dots a {
+  width: var(--num8);
+  height: var(--num8);
+  border-radius: var(--radius-full);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.slide-dots a.is-active { background-color: var(--color-Wh); }
+
+
+
+.img-wrap { overflow: hidden; background-color: var(--bg-soft); }
+.img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+.ratio-1x1 { aspect-ratio: 1 / 1; }
+.ratio-portrait { aspect-ratio: 3 / 4; }
+.ratio-wide { aspect-ratio: 16 / 7; }
